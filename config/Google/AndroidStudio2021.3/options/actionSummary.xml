@@ -1,0 +1,19 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="Android.DeviceManager">
+      <i c="2" l="1665679533206" />
+    </e>
+    <e n="WelcomeScreen.CreateNewProject">
+      <i c="1" l="1665679436322" />
+    </e>
+    <e n="WelcomeScreen.RunDeviceManager">
+      <i c="1" l="1665679385082" />
+    </e>
+    <e n="com.intellij.diagnostic.IdeMessagePanel$4">
+      <i c="1" l="1665679524398" />
+    </e>
+    <e n="com.intellij.openapi.ui.DialogWrapper$4">
+      <i c="2" l="1665681090349" />
+    </e>
+  </component>
+</application>
