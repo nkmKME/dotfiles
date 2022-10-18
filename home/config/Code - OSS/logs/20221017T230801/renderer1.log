@@ -1,4 +1,0 @@
-[2022-10-17 23:08:03.315] [renderer1] [critical] Extension 'ms-vscode.cpptools CANNOT USE these API proposals 'terminalDataWriteEvent'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
-[2022-10-17 23:08:03.335] [renderer1] [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
-[2022-10-17 23:08:04.994] [renderer1] [error] [Extension Host] (node:14919) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
-(Use `electron --trace-deprecation ...` to show where the warning was created)
