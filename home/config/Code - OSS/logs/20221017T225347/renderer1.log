@@ -1,0 +1,22 @@
+[2022-10-17 22:58:38.843] [renderer1] [critical] Extension 'ms-vscode.cpptools CANNOT USE these API proposals 'terminalDataWriteEvent'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+[2022-10-17 22:58:39.011] [renderer1] [error] Could not find category with ID: ms-vscode.cpptools#cppWelcome: Error: Could not find category with ID: ms-vscode.cpptools#cppWelcome
+    at vscode-file://vscode-app/usr/lib/code-oss/resources/app/out/vs/workbench/workbench.desktop.main.js:3145:94714
+    at f.invoke (vscode-file://vscode-app/usr/lib/code-oss/resources/app/out/vs/workbench/workbench.desktop.main.js:83:145)
+    at a.deliver (vscode-file://vscode-app/usr/lib/code-oss/resources/app/out/vs/workbench/workbench.desktop.main.js:83:2266)
+    at c.fire (vscode-file://vscode-app/usr/lib/code-oss/resources/app/out/vs/workbench/workbench.desktop.main.js:83:1844)
+    at P.progressStep (vscode-file://vscode-app/usr/lib/code-oss/resources/app/out/vs/workbench/workbench.desktop.main.js:2131:31210)
+    at P.registerDoneListeners (vscode-file://vscode-app/usr/lib/code-oss/resources/app/out/vs/workbench/workbench.desktop.main.js:2131:33734)
+    at vscode-file://vscode-app/usr/lib/code-oss/resources/app/out/vs/workbench/workbench.desktop.main.js:2131:32068
+    at Array.forEach (<anonymous>)
+    at P._registerWalkthrough (vscode-file://vscode-app/usr/lib/code-oss/resources/app/out/vs/workbench/workbench.desktop.main.js:2131:31850)
+    at vscode-file://vscode-app/usr/lib/code-oss/resources/app/out/vs/workbench/workbench.desktop.main.js:2131:29242
+    at async Promise.all (index 0)
+    at async P.registerExtensionWalkthroughContributions (vscode-file://vscode-app/usr/lib/code-oss/resources/app/out/vs/workbench/workbench.desktop.main.js:2131:27049)
+    at async Promise.all (index 0)
+    at async i._handler (vscode-file://vscode-app/usr/lib/code-oss/resources/app/out/vs/workbench/workbench.desktop.main.js:2131:23260)
+[2022-10-17 22:58:39.142] [renderer1] [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+[2022-10-17 22:58:59.722] [renderer1] [critical] Extension 'ms-vscode.cpptools CANNOT USE these API proposals 'terminalDataWriteEvent'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+[2022-10-17 22:59:00.651] [renderer1] [critical] Extension 'ms-vscode.cpptools CANNOT USE these API proposals 'terminalDataWriteEvent'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+[2022-10-17 22:59:00.677] [renderer1] [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+[2022-10-17 22:59:04.942] [renderer1] [error] [Extension Host] (node:13234) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `electron --trace-deprecation ...` to show where the warning was created)

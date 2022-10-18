@@ -1,0 +1,8 @@
+{
+    "workbench.colorTheme": "paddy-ox",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontFamily": "'Victor Mono', 'HackNerdFont'",
+    "editor.fontSize": 16,
+    "window.menuBarVisibility": "toggle",
+    "editor.fontLigatures": true
+}

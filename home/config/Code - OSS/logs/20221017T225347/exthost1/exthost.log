@@ -1,0 +1,32 @@
+[2022-10-17 22:53:54.169] [exthost] [info] Extension host with pid 11661 started
+[2022-10-17 22:53:54.639] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-10-17 22:53:54.642] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-10-17 22:53:54.642] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-10-17 22:53:54.997] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-10-17 22:53:54.998] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-10-17 22:53:55.622] [exthost] [info] Eager extensions activated
+[2022-10-17 22:53:55.650] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-10-17 22:53:55.650] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-10-17 22:57:47.014] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-10-17 22:57:47.015] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-10-17 22:57:47.015] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-10-17 22:58:07.977] [exthost] [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+[2022-10-17 22:58:57.958] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-10-17 22:58:57.989] [exthost] [info] Extension host with pid 11661 exiting with code 0
+[2022-10-17 22:59:00.443] [exthost] [info] Extension host with pid 13234 started
+[2022-10-17 22:59:00.443] [exthost] [info] Skipping acquiring lock for /home/andreco/.config/Code - OSS/User/workspaceStorage/7aca01fef29a7a7a7b5a825c384bcb93.
+[2022-10-17 22:59:00.616] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-10-17 22:59:00.617] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+[2022-10-17 22:59:00.618] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-10-17 22:59:00.848] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-10-17 22:59:00.880] [exthost] [info] Eager extensions activated
+[2022-10-17 22:59:00.890] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-10-17 22:59:00.891] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-10-17 22:59:00.891] [exthost] [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+[2022-10-17 22:59:00.972] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+[2022-10-17 22:59:04.515] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.cpptools, startup: false, activationEvent: 'onLanguage:cpp'
+[2022-10-17 23:00:00.628] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-10-17 23:00:00.629] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-10-17 23:00:00.629] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-10-17 23:07:57.458] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-10-17 23:07:57.503] [exthost] [info] Extension host with pid 13234 exiting with code 0

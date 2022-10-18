@@ -1,3 +1,0 @@
-[2022-10-12 10:27:14.715] [renderer1] [critical] Extension 'ms-vscode.cpptools CANNOT USE these API proposals 'terminalDataWriteEvent'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
-[2022-10-12 10:27:15.215] [renderer1] [error] [Extension Host] (node:8790) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
-(Use `electron --trace-deprecation ...` to show where the warning was created)
