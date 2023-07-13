@@ -50,7 +50,7 @@ source /home/andreco/powerlevel10k/powerlevel10k.zsh-theme
 
 # Manual configuration
 
-PATH=/root/.local/bin:/snap/bin:/usr/sandbox/:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/share/games:/usr/local/sbin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games
+PATH=/home/andreco/.local/bin:/root/.local/bin:/snap/bin:/usr/sandbox/:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/share/games:/usr/local/sbin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/home/andreco/repos/flutter/bin:/home/andreco/.cargo/bin
 
 # Manual aliases
 alias ll='lsd -lh --group-dirs=first'
@@ -62,10 +62,16 @@ alias cat='bat'
 alias c='echo "\033[2J\033[3J\033[1;1H"; clear'
 alias csn='clear'
 alias keymap='setxkbmap -layout latam'
-alias discord='discord &> /dev/null & disown'
+alias discord='/home/andreco/Descargas/Discord/Discord &> /dev/null & disown'
+alias clion='/home/andreco/Downloads/clion-2022.3/bin/clion.sh &> /dev/null & disown'
 alias code='code-oss'
+alias studio='bash /home/andreco/Downloads/android-studio/bin/studio.sh &> /dev/null & disown'
+alias obsidian='/home/andreco/Downloads/Obsidian-1.1.16.AppImage &> /dev/null & disown'
+alias lampp='/opt/lampp/lampp'
+alias brave='brave-browser-stable --no-sandbox &> /dev/null & disown'
 
 alias macos='/home/andreco/Desktop/andreco/repos/macOS-Simple-KVM/basic.sh -drive id=SystemDisk,if=none,file=MyDisk.qcow2 -device ide-hd,bus=sata.4,drive=SystemDisk & disown'
+alias estudio='/home/andreco/programming/cpp/roulette/roulette'
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
@@ -77,9 +83,8 @@ source /usr/share/zsh-sudo/sudo.plugin.zsh
 # Functions
 
 function execCpp(){
-	g++ -E $1 -o output
-	chmod +x ./output
-	./output
+	cmake -S ../../ -B .
+	make
 }
 
 function mkt(){
@@ -134,6 +139,13 @@ function fzf-lovely(){
 	fi
 }
 
+function obsidianSave(){
+	cd /home/andreco/vault/vault
+	git add -A
+	git commit -m "FEAT: add notes"
+	git push
+}
+
 function rmk(){
 	scrub -p dod $1
 	shred -zun 10 -v $1
@@ -151,5 +163,7 @@ bindkey "^[[3~" delete-char
 bindkey "^[[1;3C" forward-word
 bindkey "^[[1;3D" backward-word
 
-[ -f "/home/andreco/.ghcup/env" ] && source "/home/andreco/.ghcup/env" # ghcup-env
+#[ -f "/home/andreco/.ghcup/env" ] && source "/home/andreco/.ghcup/env" # ghcup-env
 source /home/andreco/powerlevel10k/powerlevel10k.zsh-theme
+
+[ -f "/home/andreco/.ghcup/env" ] && source "/home/andreco/.ghcup/env" # ghcup-env
